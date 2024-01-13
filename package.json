@@ -4,12 +4,15 @@
   "description": "A User Management Service",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/server.js"
+    "dev": "node src/server.js",
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --write"
   },
   "author": "Rais Jalia <raisjaliajr@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.0",
+    "prettier": "3.0.3",
     "typescript": "^5.3.3"
   }
 }
